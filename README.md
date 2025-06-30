@@ -4,7 +4,7 @@
 
 <img src="assets/icon.png" width="128" height="128" alt="Crown Elite Logo">
 
-[![Discord](https://img.shields.io/discord/YOUR_SERVER_ID?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://discord.gg/crwn)
+[![Discord](https://img.shields.io/discord/1306426854030442498?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://discord.gg/crwn)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 *A Steam game manifest automation tool*
