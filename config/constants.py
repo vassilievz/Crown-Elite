@@ -1,7 +1,7 @@
 REPOSITORIES = [
-    "SteamAutoCracks/ManifestHub",
-    "ikun0014/ManifestHub",
-    "Auiowu/ManifestAutoUpdate"
+    "adicione seus repositórios aqui",
+    "adicione seus repositórios aqui",
+    "adicione seus repositórios aqui"
 ]
 
 HEADERS = {
