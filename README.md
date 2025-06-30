@@ -2,18 +2,18 @@
 
 <div align="center">
 
-![Crown Elite Logo](assets/icon.png)
+<img src="assets/icon.png" width="128" height="128" alt="Crown Elite Logo">
 
 [![Discord](https://img.shields.io/discord/YOUR_SERVER_ID?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://discord.gg/crwn)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-*A modern Steam game management tool built with Python*
+*A Steam game manifest automation tool*
 
 </div>
 
 ## 🎮 About
 
-Crown Elite is a desktop application developed in Python that provides a modern interface for game management. Built on top of SteamTools technology, this project serves as an educational demonstration of Steam's manifest system and game management capabilities.
+Crown Elite is a Windows desktop application that automates Steam game manifest management using SteamTools. It provides a modern, user-friendly interface for managing game installations through manifest files and integrates directly with SteamTools for seamless operation.
 
 ### ⚠️ Important Disclaimer
 
@@ -26,20 +26,20 @@ The developers of Crown Elite do not endorse or promote any form of software pir
 
 ## ✨ Features
 
-- 🎯 Modern and responsive GUI using CustomTkinter
-- 🔐 Integrated authentication system
-- 🔍 Advanced game search functionality
-- 📊 Detailed game information display
-- 🎮 DLC management capabilities
-- 🚀 Automatic Steam path detection
+- 🎯 Modern GUI built with CustomTkinter
+- 🔍 Automatic game search and manifest handling
+- 📊 Detailed game information with DRM status
+- 🎮 Integrated SteamTools plugin management
+- 🚀 Automatic Steam path detection and restart
 - 🌓 Light/Dark theme support
-- 💻 Windows OS optimization
+- 💻 Windows-optimized performance
 
 ## 🔧 Requirements
 
-- Python 3.x
 - Windows Operating System
-- Steam Client (installed)
+- Steam Client installed
+- Python 3.x
+- SteamTools
 - Internet connection
 
 ## 📦 Dependencies
@@ -61,15 +61,12 @@ PyInstaller==6.3.0
 git clone https://github.com/[your-username]/Crown-Elite.git
 ```
 
-2. Navigate to the project directory:
-```bash
-cd Crown-Elite
-```
-
-3. Install required dependencies:
+2. Install required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+3. Make sure SteamTools is installed and configured
 
 4. Run the application:
 ```bash
@@ -78,43 +75,34 @@ python main.py
 
 ## 🌟 Usage
 
-1. Launch the application
-2. Log in with your credentials
-3. Use the search functionality to find games
-4. View detailed game information
-5. Manage game installations and DLCs
+1. Launch Crown Elite
+2. The app will automatically detect your Steam installation
+3. Search for a game by name or AppID
+4. View game details and DRM information
+5. Use the automated manifest management features
+6. Steam will restart automatically when needed
 
 ## 🤝 Community
 
-Join our Discord community for discussions, updates, and support:
+Join our Discord community for support and updates:
 [Crown Elite Discord Server](https://discord.gg/crwn)
 
 ## 🔧 Technical Details
 
-Crown Elite is built using:
-- CustomTkinter for the GUI
-- Async/await pattern for non-blocking operations
-- MongoDB for data storage
-- Steam API integration
-- Modern Python best practices
+Crown Elite features:
+- Asynchronous operations with asyncio
+- Direct integration with SteamTools plugin system
+- Automatic Steam registry detection
+- Modern Python async/await patterns
+- CustomTkinter-based responsive UI
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
 ## ⚠️ Legal Notice
 
-This software is provided "as is", without warranty of any kind. The developers are not responsible for any misuse of this software. Users are encouraged to respect intellectual property rights and support game developers by purchasing their products.
-
-## 🙏 Acknowledgments
-
-- Built with inspiration from [SteamTools](https://www.steamtools.net/)
-- Thanks to all contributors and community members
-- Special thanks to the game development community
+This software is provided "as is", without warranty of any kind. Users are responsible for ensuring their use of this tool complies with all applicable laws and terms of service.
 
 ---
 
