@@ -5,6 +5,8 @@
 <img src="assets/icon.png" width="128" height="128" alt="Crown Elite Logo">
 
 [![Discord](https://img.shields.io/discord/1306426854030442498?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://discord.gg/crwn)
+[![YouTube](https://img.shields.io/badge/YouTube-Vassilievz-red?logo=youtube)](https://www.youtube.com/@Vassilievz)
+[![Instagram](https://img.shields.io/badge/Instagram-gabriel.myerszz-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/gabriel.myerszz/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 *A Steam game manifest automation tool*
