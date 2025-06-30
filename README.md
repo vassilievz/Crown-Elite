@@ -26,6 +26,23 @@ This project is created **STRICTLY FOR EDUCATIONAL PURPOSES**. We strongly encou
 
 The developers of Crown Elite do not endorse or promote any form of software piracy. This tool should be used responsibly and in accordance with all applicable laws and terms of service.
 
+### 🚧 Development Status
+
+Please note that this version contains partially removed features due to the deactivation of the authkey system. Several components require attention and fixes, including:
+- Authentication system (authkey)
+- MongoDB token configuration
+- Various API connections
+- Potential improvements and additions
+
+### 📹 Content Creation Guidelines
+
+If you create content featuring Crown Elite (videos, tutorials, etc.), you MUST include proper attribution:
+- Link to this GitHub repository
+- Link to our Discord community
+- Link to Vassiliev's channel
+
+Failure to provide proper attribution may result in content removal through legal measures, as this project and repository are owned by Vassiliev.
+
 ## ✨ Features
 
 - 🎯 Modern GUI built with CustomTkinter
