@@ -9,11 +9,13 @@
 
 *A Steam game manifest automation tool*
 
+*Created by Vassiliev for educational purposes*
+
 </div>
 
 ## 🎮 About
 
-Crown Elite is a Windows desktop application that automates Steam game manifest management using SteamTools. It provides a modern, user-friendly interface for managing game installations through manifest files and integrates directly with SteamTools for seamless operation.
+Crown Elite is a Windows desktop application that automates Steam game manifest management using SteamTools. This project was created by Vassiliev as a learning experience to understand Steam's manifest system and improve Python programming skills. It provides a modern, user-friendly interface for managing game installations through manifest files and integrates directly with SteamTools for seamless operation.
 
 ### ⚠️ Important Disclaimer
 
@@ -107,5 +109,5 @@ This software is provided "as is", without warranty of any kind. Users are respo
 ---
 
 <div align="center">
-Made with ❤️ for educational purposes
+Made with ❤️ by Vassiliev for educational purposes
 </div>
