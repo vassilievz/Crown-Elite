@@ -60,7 +60,7 @@ PyInstaller==6.3.0
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/Crown-Elite.git
+git clone https://github.com/vassilievz/Crown-Elite.git
 ```
 
 2. Install required dependencies:
