@@ -294,7 +294,7 @@ class MainWindow(ctk.CTk):
     def on_drag(self, event):
         x = event.x_root - self.drag_start_x
         y = event.y_root - self.drag_start_y
-        self.geometry(f" +{x}+{y}")
+        self.geometry(f"+{x}+{y}")
 
     def minimize(self):
         self.withdraw()
