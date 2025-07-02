@@ -238,7 +238,7 @@ class GameSearchManager:
             text="Selecionar",
             font=("Segoe UI", 13, "bold"),
             fg_color=CORES["accent"],
-            hover_color=CORES["accent_hover"],
+            hover_color=CORES["hover"],
             corner_radius=8,
             height=32,
             command=lambda a=appid, n=game_name: self.master.enable_download(a, n)
@@ -250,7 +250,7 @@ class GameSearchManager:
             text="Info",
             font=("Segoe UI", 13, "bold"),
             fg_color=CORES["accent"],
-            hover_color=CORES["accent_hover"],
+            hover_color=CORES["hover"],
             corner_radius=8,
             height=32,
             command=lambda a=appid, n=game_name: self.show_game_info(a, n)
